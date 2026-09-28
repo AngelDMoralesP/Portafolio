@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenido{
+    background-color: #dee4e7;
+}
+.inicio {
+    width: 100%;
+    height: 100vh;
+}
+.titulos{
+    background-color:#253047; 
+    border-radius: 40px;
+    margin: 10px;
+    height: 80px;
+    padding: 20px;
+    justify-content: space-around;
+    display: grid;
+    align-items: center;
+    text-align: center;
+ }
+ #titulo{
+    font-size: 3rem;
+ }
+.botones{
+    border-radius: 40px ;
+    margin: 10px;
+    background-color: #2563EB;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.botones a{
+    text-decoration: none;
+    width: 33.33%;
+    font-size: 1.1rem;
+    font-weight: 000;
+    letter-spacing: 1pt;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+}
+.botones a:hover{
+    color: #1D4ED8;
+}
+
+.imagenes {
+    margin: 10px;
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.imagenes div {
+    flex: 1;
+}
+.imagenes div img {
+    width: 100%;
+    height: 300px;
+}
+
+.secciones section{
+    background-color: #caced3;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 3.6em;
+    position: relative;
+}
+.secciones section h1{
+    background-color: #253047;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 3rem;
+}
+.secciones section ul{
+    padding: 5px;
+    align-self: center;
+    border-radius: 10px;
+    max-width: 20rem;
+    background-color: #1f3437;
+}
+.secciones section li{
+    font-size: 2rem;
+
+}
+.secciones section p{
+    line-height: 1.5em;
+    font-size: 1rem;
+
+}
+.secciones .boton{
+    align-self: center;
+    background-color: #3B82F6;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+    text-decoration: none;
+    margin-top: 30px;
+    align-items: center;
+}
+.secciones .boton:hover{
+    color: black;
+}
+
+#contacto{
+    background-color: rgba(0, 0, 0, 0.918);
+    display: flex;
+    align-items: start;
+    height: 5rem;
+}
+#contacto h1{
+    margin: 10px;
+    color: aliceblue;
+}
